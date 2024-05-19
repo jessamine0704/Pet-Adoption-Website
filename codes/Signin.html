@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Website</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a class="navbar-brand" href="/">
+                <div class="logo-image">
+                    <img width="50" height="50" src="Logo.png" class="img-fluid">
+                </div>
+            </a>
+            <div class="logo">
+                <a href="#"><b>PAWS for Love</b></a>
+            </div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="HelpUs.html">Help Us</a></li>
+            </ul>
+            <a class="navbar-brand" href="/">
+                <div class="login-image">
+                    <img width="50" height="50" src="human.png" class="img-fluid">
+                </div>
+                <div class="buttons">
+                    <a href="animals.html" class="login"><u>Sign in</u></a>
+                </div>
+            </a>
+        </nav>
+
+        <div id="sign_up_container">
+            <h2 id="sign_up">SIGN UP</h2>
+            <input type="text" name="email" id="email_box" placeholder="EMAIL: " />
+            <input type="text" name="username" id="username_box" placeholder="USERNAME: " />
+            <input type="password" name="password" id="password_box" placeholder="PASSWORD: " />
+            <button id="sign_up_btn">SIGN UP</button>
+            <button id="sign_in_link" onclick="location.href='register.html'">ALREADY HAVE AN ACCOUNT?</button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5805aaf028.js" crossorigin="anonymous"></script>
+    <script src="sign.js"></script>
+</body>
+</html>

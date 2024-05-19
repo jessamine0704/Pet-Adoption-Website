@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: georgia, Georgia, Times, 'Times New Roman', serif
+  }
+  body{
+    color: white;
+  }
+  .container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(homebg3.png);  
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  nav{
+    position:fixed;
+    top: 0;
+    left: 0;  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    background-color: #FFFBDA;
+  }
+  .logo a{
+    font-size: 20px;
+    border-image-width: 0px;
+    padding-right: 200px;
+    color: #000000;
+    text-decoration: none;
+    font-family: Inter;
+    
+  }
+
+  content{
+    color: #FFBB70;
+    font-family: georgia;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 18px;
+    color: #000000;
+    background-color: #FFBB70;
+    padding: 9px 25px;
+    border-radius: 6px;
+  }
+  nav ul li a:hover{
+    color: #f9004d;
+  }
+
+  .login{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    color: #000000;  
+
+    
+  }
+  .btn{
+    background: red;
+    border-radius: 6px;
+    padding: 9px 25px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 18px;
+    margin-left: 400px;
+  }
+  .buttons .btn:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: rgb(212, 39, 39);
+  } 
+  .content{
+    margin-top: 15%;
+    max-width: 600px;
+  }
+  .content h2{
+    font-size: 70px;
+    color: #000000;
+    
+   
+  }
+  span{
+    color: #FFBB70;
+    font-family: georgia;
+  }
+  .content h3{
+    margin-top: 5px;
+    color: #ff66c4;
+  }
+  .content p{
+    margin-top: 10px;
+    line-height: 25px;
+  }
+  a.login    {
+    color: black;
+    padding-left: 10px;
+
+    
+  }
+
+  .login-image{
+    padding-left: 300px;
+    padding-right: 0px;
+  }
+
+  .link {
+    margin-top: 30px;
+  }
+  .hire{
+    color: #000;
+    text-decoration: none;
+    background: #FFBB70;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .view{
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .link .hire:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  .link .view:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  .social-icon ul{
+    position: absolute;
+    top: 77%;
+    left: 13%;
+    transform: translate(-50%,-50%);
+    display: flex;
+  }
+  .social-icon ul li{
+    list-style: none;
+    margin: 0 15px;
+  }
+  .social-icon ul li .fab{
+    font-size: 30px;
+    line-height: 40px;
+    transition: .3s;
+    color: #000;
+  }
+  .social-icon ul li a:hover{
+    color: #fff;
+  }
+  .social-icon ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(245, 243,243);
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0.2);
+    transition: .6s;
+  }
+  .social-icon ul li a:hover{
+    transform: translate(0, -10%);
+  }
+  .social-icon ul li:nth-child(1) a:hover{
+    background-color: rgb(60, 132, 240);
+  }
+  .social-icon ul li:nth-child(2) a:hover{
+    background-color: rgb(236, 34, 128);
+  }

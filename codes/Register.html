@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for Confirmation</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a class="navbar-brand" href="/">
+                <div class="logo-image">
+                    <img width="50" height="50" src="Logo.png" class="img-fluid">
+                </div>
+            </a>
+            <div class="logo">
+                <a href="#"><b>PAWS for Love</b></a>
+            </div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="HelpUs.html">Help Us</a></li>
+            </ul>
+            <a class="navbar-brand" href="/">
+                <div class="login-image">
+                    <img width="50" height="50" src="human.png" class="img-fluid">
+                </div>
+                <div class="buttons">
+                    <a href="animals.html" class="login"><u>Log in</u></a>
+                </div>
+            </a>
+        </nav>
+
+        <div id="register">
+            <center>
+                <span id="register_heading">
+                    <h1>REGISTER FOR</h1>
+                    <h1>CONFIRMATION</h1>
+                </span>
+            </center>
+            <div id="form_container">
+                <div class="label_bg">
+                    <center>
+                        <label><span>NAME</span></label>
+                    </center>
+                </div>
+
+                <div class="inputs">
+                    <span>
+                        <input type="text" placeholder=" FIRST NAME:" />
+                        <input type="text" placeholder=" LAST NAME:" />
+                    </span>
+                </div>
+                <div class="label_bg">
+                    <center>
+                        <label><span>ADDRESS</span></label>
+                    </center>
+                </div>
+
+                <div class="inputs">
+                    <span>
+                        <input type="text" placeholder=" STREET NAME:" />
+                        <input type="text" placeholder=" NUMBER:" /> <br />
+                    </span>
+                    <span>
+                        <input type="text" placeholder=" POSTAL CODE:" />
+                        <input type="text" placeholder=" CITY:" /> <br />
+                    </span>
+                    <span>
+                        <input type="text" placeholder=" COUNTRY:" />
+                        <button id="submit_btn" onclick="redirectToCongrats()">SUBMIT</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5805aaf028.js" crossorigin="anonymous"></script>
+    <script>
+        function redirectToCongrats() {
+            window.location.href = 'Congrats.html';
+        }
+    </script>
+</body>
+</html>
